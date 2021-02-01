@@ -1,6 +1,6 @@
 package dnb.reskill.tom;
 
-
+// ANDY: Can you delete this import statement?
 import jdk.swing.interop.SwingInterOpUtils;
 
 import java.util.regex.Matcher;
@@ -11,7 +11,7 @@ public class RegexDemo {
 
     public static void main(String[] args) {
 
-
+        // ANDY: Nice usage of Java API for RegExps, I'll go through all the details tomorrow morning (Tuesday). 
         //a series of regular expression tests
         System.out.println(isMatching(".x.a.","yxpar"));//test . which stands for any character (true)
         System.out.println(isMatching(".x.a.","yapar"));//test . which stands for any character (false)
