@@ -10,7 +10,7 @@ public class RegexDemo {
 
         //a series of regular expression tests
 
-       /*System.out.println(isMatching(".x.a.","yxpar"));//test . which stands for any character (true)
+       System.out.println(isMatching(".x.a.","yxpar"));//test . which stands for any character (true)
         System.out.println(isMatching(".x.a.","yapar"));//test . which stands for any character (false)
         System.out.println(isMatching("[agh]?","a"));//test that ag or h occurs, but only once and one char (true)
         System.out.println(isMatching("[a]?","ag"));//test that a occurs, but only once and one char (false)
@@ -19,7 +19,6 @@ public class RegexDemo {
         System.out.println(Pattern.matches("\\d","1")); //test for a digit (true)
         System.out.println(Pattern.matches("\\d","11")); //test for a digit (false)
         System.out.println(Pattern.matches("[\\d]{3}\\Dx?y?","188dy")); //test for a little more complex regex (true)
-        */
         System.out.println((Pattern.matches("[\\D]+[\\d]{3}$","hallaisiken132"))); // TRUE
 
 
